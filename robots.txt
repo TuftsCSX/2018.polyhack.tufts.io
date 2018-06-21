@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /coffee/
+Disallow: /script/
+Disallow: /style/
+Disallow: /README.md
+
+Sitemap: http://2018.polyhack.tufts.io/sitemap.xml

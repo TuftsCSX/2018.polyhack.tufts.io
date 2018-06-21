@@ -1,0 +1,180 @@
+#logoTriangles {
+  overflow: visible;
+}
+
+@keyframes move-right {
+  0% {
+    transform: translateX(-700px);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes move-left {
+  0% {
+    transform: translateX(700px);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+
+/*
+
+comments for bruno (delete after reading)
+I'm sure you've done similar stuff before, but basically i created 2 generic animations, move-right and move-left
+If you want to change the distance of the animation, you'd have to create a new keyframe
+
+If you just want to change the speed or the delay, you can change it in the CSS below
+it goes
+animation: <animation name> <time> <delay> <acceleration type> <forwards>;
+
+Forwards makes it stay at the last frame
+
+*/
+
+#poly1 {
+  animation: move-right 6s 0.5s ease-in-out forwards;
+  opacity: 0;
+}
+
+#poly2 {
+  animation: move-right 6s 0.5s ease-in-out forwards;
+  opacity: 0;
+}
+
+#poly3 {
+  animation: move-right 3s 0.5s ease-in-out forwards;
+  opacity: 0;
+}
+
+#poly4 {
+  animation: move-right 4s 0.5s ease-in-out forwards;
+  opacity: 0;
+}
+
+#poly5 {
+  animation: move-left 5s 0.5s ease-in-out forwards;
+  opacity: 0;
+}
+
+#poly6 {
+  animation: move-left 6s 0.5s ease-in-out forwards;
+  opacity: 0;
+}
+
+#poly7 {
+  animation: move-left 3s 0.5s ease-in-out forwards;
+  opacity: 0;
+}
+
+#poly8 {
+  animation: move-right 5s 0.5s ease-in-out forwards;
+  opacity: 0;
+}
+
+#poly9 {
+  animation: move-left 6s 0.5s ease-in-out forwards;
+  opacity: 0;
+}
+
+#poly10 {
+  animation: move-left 3s 0.5s ease-in-out forwards;
+  opacity: 0;
+}
+
+#poly11 {
+  animation: move-right 6s 0.5s ease-in-out forwards;
+  opacity: 0;
+}
+
+#poly12 {
+  animation: move-right 5s 0.5s ease-in-out forwards;
+  opacity: 0;
+}
+
+#poly13 {
+  animation: move-right 6s 0.5s ease-in-out forwards;
+  opacity: 0;
+}
+
+#poly14 {
+  animation: move-right 5s 0.5s ease-in-out forwards;
+  opacity: 0;
+}
+
+#poly15 {
+  animation: move-right 4s 0.5s ease-in-out forwards;
+  opacity: 0;
+}
+
+#poly16 {
+  animation: move-left 7s 0.5s ease-in-out forwards;
+  opacity: 0;
+}
+
+#poly17 {
+  animation: move-right 4s 0.5s ease-in-out forwards;
+  opacity: 0;
+}
+
+#poly18 {
+  animation: move-left 5s 0.5s ease-in-out forwards;
+  opacity: 0;
+}
+
+#poly19 {
+  animation: move-right 7s 0.5s ease-in-out forwards;
+  opacity: 0;
+}
+
+#poly20 {
+  animation: move-left 6s 0.5s ease-in-out forwards;
+  opacity: 0;
+}
+
+#poly21 {
+  animation: move-right 4s 0.5s ease-in-out forwards;
+  opacity: 0;
+}
+
+#poly22 {
+  animation: move-right 3s 0.5s ease-in-out forwards;
+  opacity: 0;
+}
+
+#poly23 {
+  animation: move-right 5s 0.5s ease-in-out forwards;
+  opacity: 0;
+}
+
+#poly24 {
+  animation: move-right 4s 0.5s ease-in-out forwards;
+  opacity: 0;
+}
+
+#poly25 {
+  animation: move-left 7s 0.5s ease-in-out forwards;
+  opacity: 0;
+}
+
+#poly26 {
+  animation: move-left 3s 0.5s ease-in-out forwards;
+  opacity: 0;
+}
+
+#poly27 {
+  animation: move-right 4s 0.5s ease-in-out forwards;
+  opacity: 0;
+}
