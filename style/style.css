@@ -267,7 +267,7 @@ h3, h4 {
     padding-top: 8%;
 }
 
-#Sponsors .col-sm-12 img, #Sponsors .col-sm-6 img, #Sponsors .col-sm-4 img, #Sponsors .col-sm-3 img {
+#Sponsors .col-sm-5 img {
     position: relative;
     margin: 0 auto;
 }
@@ -311,28 +311,55 @@ h3, h4 {
     padding-top: 2%;
 }
 
-@media (max-width: 768px), only screen and (max-device-width: 480px) {
+@media (max-width: 750px), only screen and (max-device-width: 480px) {
     #Sponsors .row.platinum img {
-        max-width: 80%;
         margin-left: 10%;
     }
     #Sponsors .row.gold img {
-        max-width: 50%;
-        margin-left: 25%;
-        margin-bottom: 50px;
+        margin-left: 20%;
+        margin-bottom: none;
     }
     #Sponsors .row.silver img {
-        max-width: 30%;
         margin-left: 30%;
-        margin-bottom: 50px;
+
     }
-    #Sponsors .row.silver.last img {
-        margin-bottom: 50px;
-        padding: 0px;
-    }
+
     .btn-default {
         margin-top: 60px;
         margin-bottom: 20px;
+    }
+
+    .sponsor-hubspot {
+        padding-top: 5%
+    }
+
+    .sponsor-paytronix {
+        padding-left: 15%;
+        width: 75%;
+    }
+
+    .sponsor-tripadvisor img {
+        padding-left: 10%;
+        width: 60%;
+    }
+
+    .sponsor-google img {
+        padding-left: 10%;
+        width: 40%;
+    }
+
+    .sponsor-facebook {
+        padding-top: 15%;
+        padding-left: 25%;
+        width: 70%;
+    }
+
+    .purple {
+        display: none;
+    }
+
+    .orange {
+        display: none;
     }
 }
 
