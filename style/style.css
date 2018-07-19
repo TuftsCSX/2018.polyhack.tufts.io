@@ -167,10 +167,9 @@ h3, h4 {
 }
 
 #logo-background {
-    padding-top: 65px;
     position: relative;
     width: 650px;
-    height: 650px;
+    height: 600px;
     z-index: 10;
 }
 
