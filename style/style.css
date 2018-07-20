@@ -353,6 +353,10 @@ h3, h4 {
         width: 70%;
     }
 
+    .green {
+        display: none;
+    }
+
     .purple {
         display: none;
     }
