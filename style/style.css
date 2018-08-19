@@ -283,9 +283,19 @@ h3, h4 {
 #Sponsors .row.gold {
     margin-bottom: 80px;
 }
+#Sponsors .row.silver {
+    margin-bottom: 80px;
+}
 
 .sponsor-hubspot {
-    padding-top: 5%
+    padding-left: 10%;
+    padding-top: 5%;
+    width: 40%;
+}
+
+.sponsor-chewy {
+    padding-top: 5%;
+    width: 30%;
 }
 
 .sponsor-paytronix {
@@ -307,6 +317,17 @@ h3, h4 {
 
 .sponsor-facebook {
     width: 40%;
+    padding-top: 2%;
+}
+
+.sponsor-redline img {
+    width: 75%;
+    padding-top: 5%;
+    padding-left: 40%;
+}
+
+.sponsor-mongodb {
+    width: 20%;
     padding-top: 2%;
 }
 
