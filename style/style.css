@@ -266,6 +266,7 @@ h3, h4 {
     padding-top: 8%;
 }
 
+
 #Sponsors .col-sm-5 img {
     position: relative;
     margin: 0 auto;
@@ -299,14 +300,13 @@ h3, h4 {
 }
 
 .sponsor-paytronix {
-    width: 40%;
+    width: 30%;
     padding-top: 10%;
-    padding-left: 10%;
 }
 
 .sponsor-tripadvisor img {
     width: 55%;
-    padding-top: 10%;
+    padding-top: 5%;
 }
 
 .sponsor-google img {
@@ -315,14 +315,13 @@ h3, h4 {
     padding-left: 40%;
 }
 
-.sponsor-facebook {
-    width: 40%;
-    padding-top: 2%;
+.sponsor-adobe {
+    width: 10%;
+    padding-top: 5%;
 }
 
 .sponsor-redline img {
     width: 75%;
-    padding-top: 5%;
     padding-left: 40%;
 }
 
@@ -332,46 +331,64 @@ h3, h4 {
 }
 
 @media (max-width: 750px), only screen and (max-device-width: 480px) {
-    #Sponsors .row.platinum img {
-        margin-left: 10%;
-    }
-    #Sponsors .row.gold img {
-        margin-left: 20%;
-        margin-bottom: none;
-    }
-    #Sponsors .row.silver img {
-        margin-left: 30%;
-
-    }
-
     .btn-default {
         margin-top: 60px;
         margin-bottom: 20px;
     }
 
     .sponsor-hubspot {
-        padding-top: 5%
-    }
-
-    .sponsor-paytronix {
-        padding-left: 15%;
-        width: 75%;
-    }
-
-    .sponsor-tripadvisor img {
-        padding-left: 10%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
         width: 60%;
     }
 
-    .sponsor-google img {
-        padding-left: 10%;
+    .sponsor-chewy {
+        padding-top: 10%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
+    .sponsor-paytronix {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+    }
+
+    .sponsor-adobe {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 20%;
+    }
+
+    .sponsor-tripadvisor img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
         width: 40%;
     }
 
-    .sponsor-facebook {
-        padding-top: 15%;
-        padding-left: 30%;
-        width: 70%;
+    .sponsor-redline {
+        display: block;
+        margin-right: 15%;
+    }
+
+    .sponsor-mongodb {
+        display: block;
+        padding-top: 10%;
+        margin-left: auto;
+        margin-right: auto;        
+        width: 40%;
+    }
+
+    .sponsor-google img {
+        display: block;
+        padding-top: 10%;
+        width: 60%;
     }
 
     .green {
